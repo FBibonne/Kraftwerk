@@ -37,7 +37,7 @@
 		<!-- Pi Test-->
 		<pitest.version>1.20.4</pitest.version>
 		<pitest.junit.version>1.2.3</pitest.junit.version>
-	
+	    <boot-properties-logger.version>1.5.0</boot-properties-logger.version>
 	</properties>
 	<modules>
 		<module>kraftwerk-core</module>
@@ -52,6 +52,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+		<dependency>
+    <groupId>io.github.fbibonne</groupId>
+    <artifactId>boot-properties-logger-starter</artifactId>
+    <version>${boot-properties-logger.version}</version>
+</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-logging</artifactId>
