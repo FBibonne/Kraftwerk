@@ -45,6 +45,10 @@
 		<module>kraftwerk-api</module>
         <module>kraftwerk-functional-tests</module>
         <module>kraftwerk-encryption-tests</module>
+        <module>vtl-engine</module>
+        <module>vtl-jackson</module>
+        <module>vtl-model</module>
+        <module>vtl-parser</module>
     </modules>
 	<dependencies>
 		<!-- Spring -->

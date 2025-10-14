@@ -1,0 +1,54 @@
+{
+  "dataStructure": [
+    {
+      "name": "CONTINENT",
+      "type": "STRING",
+      "role": "IDENTIFIER",
+      "nullable": false
+    },
+    {
+      "name": "COUNTRY",
+      "type": "STRING",
+      "role": "IDENTIFIER",
+      "nullable": false
+    },
+    {
+      "name": "POP",
+      "type": "INTEGER",
+      "role": "MEASURE",
+      "nullable": true
+    },
+    {
+      "name": "AREA",
+      "type": "NUMBER",
+      "role": "MEASURE",
+      "nullable": true
+    }
+  ],
+  "dataPoints": [
+    [
+      "Europe",
+      "France",
+      67063703,
+      643.801
+    ],
+    [
+      "Europe",
+      "Norway",
+      5372191,
+      385.203
+    ],
+    [
+      "Oceania",
+      "New Zealand",
+      4917000,
+      268.021
+    ],
+    [
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}

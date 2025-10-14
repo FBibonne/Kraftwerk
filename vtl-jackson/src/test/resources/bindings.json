@@ -1,0 +1,53 @@
+{
+  "string": "string",
+  "int": 1,
+  "dataset": {
+    "structure": [
+      {
+        "name": "CONTINENT",
+        "type": "STRING",
+        "role": "IDENTIFIER",
+        "nullable": true
+      },
+      {
+        "name": "COUNTRY",
+        "type": "STRING",
+        "role": "IDENTIFIER"
+      },
+      {
+        "name": "POP",
+        "type": "INTEGER",
+        "role": "MEASURE",
+        "nullable": false
+      },
+      {
+        "name": "AREA",
+        "type": "NUMBER",
+        "role": "MEASURE",
+        "nullable": true
+      }
+    ],
+    "data": [
+      [
+        "Europe",
+        "France",
+        67063703,
+        643.801
+      ],
+      [
+        "Europe",
+        "Norway",
+        5372191,
+        385.203
+      ],
+      [
+        "Oceania",
+        "New Zealand",
+        4917000,
+        268.021
+      ]
+    ]
+  },
+  "float": 1.2,
+  "bool": true
+}
